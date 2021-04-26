@@ -1,0 +1,5 @@
+firefox.settings.services.mozilla.com:HSTS	1	18710	1648116701791,1,0,2
+aus5.mozilla.org:HSTS	1	18710	1648118563025,1,0,2
+services.addons.mozilla.org:HSTS	1	18710	1648118563356,1,0,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	18704	1647618096538,1,1,2
+versioncheck.addons.mozilla.org:HSTS	0	18704	1616082647926,1,0,2
