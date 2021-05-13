@@ -1,5 +1,5 @@
 # personal portable firefox
-# submodule gist for `./personal-profile/chrome/`[userchrome](https://gist.github.com/crbyxwpzfl/a2ba14e8fbf58d32e0ac54feb1feadd0), [tutorial](https://gist.github.com/crbyxwpzfl/a2ba14e8fbf58d32e0ac54feb1feadd0)
+# submodule gist `./personal-profile/chrome/`[userchrome](https://gist.github.com/crbyxwpzfl/a2ba14e8fbf58d32e0ac54feb1feadd0)
 
 ## userchrome
 `.\firefox-portable\personal-profile\chrome\userChrome.css`<br>
