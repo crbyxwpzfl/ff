@@ -1,8 +1,9 @@
 # personal portable firefox
-# submodule gist `./personal-profile/chrome/`[userchrome](https://gist.github.com/crbyxwpzfl/a2ba14e8fbf58d32e0ac54feb1feadd0)
 
 ## userchrome
-`.\firefox-portable\personal-profile\chrome\userChrome.css`<br>
+go to `about:support`<br>
+open profile folder
+put userChrome.css in `\Mozilla\Firefox\Profiles\...\chrome\userChrome.css`
 
 ## scs vimvixen
 `b` show tabs<br>
@@ -19,6 +20,9 @@
 `Strg b` bookmark sidebar<br>
 `Strg h` history sidebar<br>
 `Strg Shift s` screenshot tool<br>
+`Alt arrow right` go back<br>
+`Strg Tab` switch tabs<br>
+
 
 ## scs win
 `win arrow` move window<br>
