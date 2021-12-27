@@ -1,4 +1,4 @@
-## ff
+## [ff](https://www.mozilla.org/en-US/firefox/new/)
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
 ```
 about:support #open url to find profile folder
@@ -13,7 +13,7 @@ Alt arrow right #go back<br>
 Strg Tab #switch tabs<br>
 ```
 
-## vimvixen
+## [vimvixen](https://github.com/ueokande/vim-vixen)
 [vimvixen.json](https://github.com/crbyxwpzfl/ff/blob/main/vimvixen.json)
 ```
 about:addons #open url and go to vimvixen options and paste vimvixen.json
@@ -44,12 +44,10 @@ crtl shit g #source controll
 crtl shift e #explorer
 ```
 
-## ublock origin
+## [ublock origin](https://github.com/gorhill/uBlock)
 
-## icloud bokmarks
-```
-requires windows icloud app
-```
+## [icloud bokmarks](https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks)
+requires windows [icloud app](https://www.microsoft.com/store/apps/9PKTQ5699M62)
 
 ## windows
 ```batch
