@@ -23,3 +23,10 @@
 ## scs win
 `win arrow` move window<br>
 
+## windows
+```batch
+::in C:\Users\roess\AppData\Roaming mozilla is created
+cd %DESKTOP%\firefox-portable
+start firefox\firefox.exe -Profile personal-profile
+```
+
