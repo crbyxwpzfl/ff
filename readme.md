@@ -1,5 +1,3 @@
-# personal portable firefox
-
 ## ff
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
 ```
