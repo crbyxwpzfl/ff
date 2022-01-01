@@ -13,10 +13,10 @@ Alt arrow right #go back<br>
 Strg Tab #switch tabs<br>
 ```
 
-## [vimvixen](https://github.com/ueokande/vim-vixen)
-[vimvixen.json](https://github.com/crbyxwpzfl/ff/blob/main/vimvixen.json)
+## [tridactyl](https://github.com/tridactyl/tridactyl)
 ```
-about:addons #open url and go to vimvixen options and paste vimvixen.json
+:colourscheme --url https://raw.githubusercontent.com/crbyxwpzfl/ff/main/theme.css theme  #set theme
+:unbind . #make . for github work
 ```
 general
 ```
