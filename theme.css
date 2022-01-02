@@ -3,7 +3,7 @@
 }
 
 :root #tridactyl-colon::before {
-    content: "] ";
+    content: ": ";
 }
 
 :root #cmdline_iframe {
