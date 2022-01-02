@@ -14,7 +14,7 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
 
-/**
+
 :root.TridactylThemeTheme {
     --tridactyl-hint-active-bg: rgba(0,0,0,0);
     --tridactyl-hint-active-outline: 0px solid rgba(0,0,0,0);
@@ -25,8 +25,12 @@
 
 span.TridactylHint { 
     font-family: monospace !important; 
-    background: transparent !important; 
-    color: black !important; 
+    background: transparent !important;
+    color: black !important;
+    font-weight: bold !important;
+    text-transform: lowercase !important;
+    color: black !important;
+    background-color: #ffffff !important;
     text-shadow: cyan -1px -1px 0px, 
         cyan -1px 0px 0px, 
         cyan -1px 1px 0px, 
@@ -37,8 +41,9 @@ span.TridactylHint {
         cyan 0px -1px 0px 
         !important; 
 }
-**/
 
+
+/**
 span.TridactylHint {
 	position: absolute !important;
 	font-family: monospace !important;
@@ -60,10 +65,9 @@ span.TridactylHint {
 .TridactylHintElem { 
 	background-color: inherit !important;  
 	border-color: rgba(0, 0, 0, 0.2) !important;
-	border-color: rgba(0, 0, 0, 0.1) !important;
 } 
 
-/**
+
 .TridactylHintActive { 
 	background-color: rgba(1, 1, 0, 0.1) !important;
 	color: black !important; 
