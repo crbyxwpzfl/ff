@@ -17,6 +17,8 @@ Strg Tab #switch tabs<br>
 ```
 :colourscheme --url https://raw.githubusercontent.com/crbyxwpzfl/ff/main/theme.css theme  #set theme
 :unbind . #make . for github work
+:set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
+:bind --mode=hint <C-[> hint.reset  #bind f to exit hint mode
 ```
 general
 ```
