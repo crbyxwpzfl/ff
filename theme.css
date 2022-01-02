@@ -27,10 +27,6 @@ span.TridactylHint {
     font-family: monospace !important; 
     background: transparent !important;
     color: black !important;
-    font-weight: bold !important;
-    text-transform: lowercase !important;
-    color: black !important;
-    background-color: #ffffff !important;
     text-shadow: cyan -1px -1px 0px, 
         cyan -1px 0px 0px, 
         cyan -1px 1px 0px, 
