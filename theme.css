@@ -14,9 +14,56 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
 
+/**
 :root.TridactylThemeTheme {
     --tridactyl-hint-active-bg: rgba(0,0,0,0);
     --tridactyl-hint-active-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-bg: rgba(0,0,0,0);
+}
+**/
+
+span.TridactylHint { 
+    font-family: monospace !important; 
+    background: transparent !important; 
+    color: black !important; 
+    text-shadow: cyan -1px -1px 0px, 
+        cyan -1px 0px 0px, 
+        cyan -1px 1px 0px, 
+        cyan 1px -1px 0px, 
+        cyan 1px 0px 0px, 
+        cyan 1px 1px 0px, 
+        cyan 0px 1px 0px, 
+        cyan 0px -1px 0px 
+        !important; 
+}
+
+
+span.TridactylHint {
+	position: absolute !important;
+	font-family: monospace !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	text-transform: lowercase !important;
+	color: black !important;
+	background-color: #ffd76e !important;
+	border-color: rgba(0, 0, 0, 0.1) !important;
+	border-width: 1px !important;
+	border-radius: 2px !important;
+	min-width: .75em !important;
+	border-style: solid !important;
+	padding: 0 1pt !important;
+	text-align: center !important;
+	z-index: 2147483647 !important;
+}
+
+.TridactylHintElem { 
+	background-color: inherit !important;  
+	border-color: rgba(0.5, 0.5, 0.5, 0.05) !important; 
+} 
+
+.TridactylHintActive { 
+	background-color: rgba(1, 1, 0, 0.1) !important;
+	color: black !important; 
+	border-color: rgba(0, 0, 0, 0.1) !important; 
 }
