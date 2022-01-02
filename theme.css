@@ -56,33 +56,33 @@ span.TridactylHint {
 **/
 
 span.TridactylHint {
-	position: absolute !important;
-	font-family: monospace !important;
-	font-size: 14px !important;
-	font-weight: bold !important;
-	text-transform: lowercase !important;
-	color: black !important;
-	background-color: transparent !important;
-	border-color: rgb(255, 255, 255) !important;
-	border-width: 0px !important;
-	border-radius: 0px !important;
-	min-width: 0px !important;
-	border-style: solid !important;
-	padding: 0 0pt !important;
-	text-align: center !important;
-	z-index: 2147483647 !important;
+    position: absolute !important;
+    font-family: monospace !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-transform: lowercase !important;
+    color: black !important;
+    background-color: transparent !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-width: 0px !important;
+    border-radius: 0px !important;
+    min-width: 0px !important;
+    border-style: solid !important;
+    padding: 0 0pt !important;
+    text-align: center !important;
+    z-index: 2147483647 !important;
 }
 
 
 .TridactylHintElem { 
-	background-color: inherit !important;
+    background-color: inherit !important;
     color: transparent !important;
-	border-color: transparent !important;
+    border-color: transparent !important;
 } 
 
 
 .TridactylHintActive { 
-	background-color: rgb(0, 255, 0) !important;
-	color: black !important; 
-	border-color: rgb(255, 0, 255) !important; 
+    background-color: rgb(0, 255, 0) !important;
+    color: black !important; 
+    border-color: rgb(255, 0, 255) !important; 
 }
