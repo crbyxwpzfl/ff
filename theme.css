@@ -21,7 +21,7 @@
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-bg: rgba(0,0,0,0);
 }
-**/
+
 
 span.TridactylHint { 
     font-family: monospace !important; 
@@ -37,7 +37,7 @@ span.TridactylHint {
         cyan 0px -1px 0px 
         !important; 
 }
-
+**/
 
 span.TridactylHint {
 	position: absolute !important;
