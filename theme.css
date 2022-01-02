@@ -9,7 +9,7 @@
 :root #cmdline_iframe {
     position: fixed !important;
     bottom: unset;
-    top: 40% !important;
+    top: 20% !important;
     left: 0% !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
@@ -66,9 +66,9 @@ span.TridactylHint {
 	border-color: rgb(255, 255, 255) !important;
 	border-width: 0px !important;
 	border-radius: 0px !important;
-	min-width: .75em !important;
+	min-width: 0px !important;
 	border-style: solid !important;
-	padding: 0 1pt !important;
+	padding: 0 0pt !important;
 	text-align: center !important;
 	z-index: 2147483647 !important;
 }
