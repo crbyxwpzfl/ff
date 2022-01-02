@@ -58,14 +58,14 @@ span.TridactylHint {
 }
 
 .TridactylHintElem { 
-	background-color: inherit !important;  
+	background-color: transparent !important;  
 	border-color: rgba(0, 0, 0, 0.2) !important; 
 } 
 
-
+/**
 .TridactylHintActive { 
 	background-color: rgba(1, 1, 0, 0.1) !important;
 	color: black !important; 
 	border-color: rgba(0, 0, 0, 0.1) !important; 
 }
-
+**/
