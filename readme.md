@@ -1,8 +1,8 @@
-```
+```sh
 strg k #github spotlight
 ```
 
-```
+```sh
 . #vs code in browser
 alt #toggle menue bar
 crtl shit g #source controll
@@ -11,12 +11,12 @@ crtl shift e #explorer
 
 ## [ff](https://www.mozilla.org/en-US/firefox/new/)
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
-```
+```sh
 about:support #open url to find profile folder
 Mozilla\Firefox\Profiles\...\chrome\userChrome.css #put userChrome.css here
 ```
 general
-```
+```sh
 Strg b #bookmark sidebar<br>
 Strg h #history sidebar<br>
 Strg Shift s #screenshot tool<br>
@@ -26,7 +26,7 @@ Strg Tab #switch tabs<br>
 
 ## [tridactyl](https://github.com/tridactyl/tridactyl)
 setup
-```
+```sh
 :colourscheme --url https://crbyxwpzfl.github.io/ff/theme.css theme #remeber to host githubpages from master baranch before in repo settings
 :unbind . #make . for github work
 :set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
@@ -35,7 +35,7 @@ setup
 :setnull searchurls.github  #disable github seach
 ```
 general
-```
+```sh
 b #show tabs<br>
 o #open in same tab<br>
 t #open in new tab<br>
@@ -49,11 +49,11 @@ d #clsoe tab
 
 ## vscode in github
 [settings.json](https://github.com/crbyxwpzfl/ff/blob/main/settings.json)
-```
+```sh
 crtl , #to open settings then click upper right button and paste settings.json
 ```
 general
-```
+```sh
 . #vs code in browser
 alt #toggle menue bar
 crtl shit g #source controll
