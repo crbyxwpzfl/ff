@@ -76,7 +76,7 @@ span.TridactylHint {
 
 .TridactylHintElem { 
 	background-color: inherit !important;  
-	border-color: rgb(255, 0, 0) !important;
+	border-color: transparent !important;
 } 
 
 
