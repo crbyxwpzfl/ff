@@ -31,7 +31,7 @@ setup
 :unbind . #make . for github work
 :set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
 :bind --mode=hint f hint.reset  #bind f to exit hint mode
-:set modeindicator false  #hide moe indicator
+:set modeindicatormodes {"normal":"false", "hint":"false"} #hide moe indicator
 ```
 general
 ```
