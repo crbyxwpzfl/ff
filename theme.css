@@ -54,7 +54,7 @@ span.TridactylHint {
         !important; 
 }
 **/
-/**
+
 span.TridactylHint {
 	position: absolute !important;
 	font-family: monospace !important;
@@ -73,7 +73,7 @@ span.TridactylHint {
 	z-index: 2147483647 !important;
 }
 
-/**
+
 .TridactylHintElem { 
 	background-color: inherit !important;  
 	border-color: rgba(0, 0, 0, 0.2) !important;
@@ -85,4 +85,3 @@ span.TridactylHint {
 	color: black !important; 
 	border-color: rgba(0, 0, 0, 0.1) !important; 
 }
-**/
