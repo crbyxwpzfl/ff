@@ -20,6 +20,23 @@
     --tridactyl-hint-active-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-bg: rgba(0,0,0,0);
+
+    --tridactyl-hintspan-fg: white;
+    --tridactyl-hintspan-bg: #204e8a;
+
+    --tridactyl-hint-active-fg: #333;
+    --tridactyl-hint-active-bg: #88ff00;
+    --tridactyl-hint-active-outline: 1px solid #000;
+    
+    --tridactyl-hint-bg: rgba(13, 31, 54, 0.25);
+    --tridactyl-hint-outline: 1px solid var(--tridactyl-hintspan-bg);
+    
+    --tridactyl-highlight-box-bg: var(
+        --tridactyl-photon-colours-in-content-box-background
+    );
+    --tridactyl-highlight-box-fg: var(
+        --tridactyl-photon-colours-in-content-text-color
+    );
 }
 
 /**
@@ -38,7 +55,7 @@ span.TridactylHint {
         !important; 
 }
 **/
-
+/**
 span.TridactylHint {
 	position: absolute !important;
 	font-family: monospace !important;
