@@ -13,7 +13,7 @@ crtl shift e #explorer
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
 ```sh
 about:support #open url to find profile folder
-Mozilla\Firefox\Profiles\...\chrome\userChrome.css #put userChrome.css here
+\Mozilla\Firefox\Profiles\...\chrome\userChrome.css #put userChrome.css here
 ```
 general
 ```sh
@@ -65,10 +65,4 @@ crtl shift e #explorer
 ## [icloud bokmarks](https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks)
 requires windows [icloud app](https://www.microsoft.com/store/apps/9PKTQ5699M62)
 
-## windows
-```batch
-::in C:\Users\roess\AppData\Roaming mozilla is created
-cd %DESKTOP%\firefox-portable
-start firefox\firefox.exe -Profile personal-profile
-```
 
