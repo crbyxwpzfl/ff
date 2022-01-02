@@ -32,6 +32,7 @@ setup
 :set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
 :bind --mode=hint f hint.reset  #bind f to exit hint mode
 :set modeindicatormodes {"normal":"false", "hint":"false"} #hide moe indicator
+:setnull searchurls.github  #disable github seach
 ```
 general
 ```
