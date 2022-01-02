@@ -29,17 +29,13 @@
     --tridactyl-hint-active-outline: 1px solid #000;
     
     --tridactyl-hint-bg: rgba(248, 248, 248, 0.25);
+    --tridactyl-hintspan-font-size:
     
-    /**
+    
     --tridactyl-hint-outline: 1px solid var(--tridactyl-hintspan-bg);
     
-    --tridactyl-highlight-box-bg: var(
-        --tridactyl-photon-colours-in-content-box-background
-    );
-    --tridactyl-highlight-box-fg: var(
-        --tridactyl-photon-colours-in-content-text-color
-    );
-    **/
+    --tridactyl-highlight-box-bg: yellow;
+    --tridactyl-highlight-box-fg: green;
 }
 
 /**
