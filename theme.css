@@ -14,14 +14,14 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
 
-/**
+
 :root.TridactylThemeTheme {
     --tridactyl-hint-active-bg: rgba(0,0,0,0);
     --tridactyl-hint-active-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-bg: rgba(0,0,0,0);
 }
-**/
+
 /**
 span.TridactylHint { 
     font-family: monospace !important; 
