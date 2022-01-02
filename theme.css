@@ -61,8 +61,7 @@ span.TridactylHint {
 	font-size: 14px !important;
 	font-weight: bold !important;
 	text-transform: lowercase !important;
-	color: white !important;
-    mix-blend-mode: difference;
+	color: black !important;
 	background-color: transparent !important;
 	border-color: rgb(255, 255, 255) !important;
 	border-width: 0px !important;
