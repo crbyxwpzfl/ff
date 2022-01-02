@@ -25,11 +25,13 @@ Strg Tab #switch tabs<br>
 ```
 
 ## [tridactyl](https://github.com/tridactyl/tridactyl)
+setup
 ```
 :colourscheme --url https://crbyxwpzfl.github.io/ff/theme.css theme #remeber to host githubpages from master baranch before in repo settings
 :unbind . #make . for github work
 :set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
 :bind --mode=hint f hint.reset  #bind f to exit hint mode
+:set modeindicator false  #hide moe indicator
 ```
 general
 ```
