@@ -15,7 +15,7 @@
 }
 
 
-:root.TridactylThemeTheme {
+:root {
     --tridactyl-hint-active-bg: rgba(0,0,0,0);
     --tridactyl-hint-active-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
@@ -28,8 +28,7 @@
     --tridactyl-hint-active-bg: #88ff00;
     --tridactyl-hint-active-outline: 1px solid #000;
     
-    --tridactyl-hint-bg: rgba(248, 248, 248, 0.25);
-    
+    --tridactyl-hint-bg: rgba(255, 255, 255, 0.25);
     /**
     --tridactyl-hint-outline: 1px solid var(--tridactyl-hintspan-bg);
     
