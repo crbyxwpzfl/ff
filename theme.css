@@ -21,7 +21,7 @@
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-bg: rgba(0,0,0,0);
 }
-
+**/
 /**
 span.TridactylHint { 
     font-family: monospace !important; 
@@ -39,14 +39,13 @@ span.TridactylHint {
 }
 **/
 
-
 span.TridactylHint {
 	position: absolute !important;
 	font-family: monospace !important;
 	font-size: 20px !important;
 	font-weight: bold !important;
 	text-transform: lowercase !important;
-	color: #ffffff !important;
+	color: white !important;
 	background-color: transparent !important;
 	border-color: rgba(0, 0, 0, 0) !important;
 	border-width: 1px !important;
