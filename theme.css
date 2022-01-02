@@ -43,12 +43,12 @@ span.TridactylHint {
 span.TridactylHint {
 	position: absolute !important;
 	font-family: monospace !important;
-	font-size: 14px !important;
+	font-size: 20px !important;
 	font-weight: bold !important;
 	text-transform: lowercase !important;
 	color: #ffffff !important;
 	background-color: transparent !important;
-	border-color: rgba(0, 0, 0, 0.1) !important;
+	border-color: rgba(0, 0, 0, 0) !important;
 	border-width: 1px !important;
 	border-radius: 2px !important;
 	min-width: .75em !important;
