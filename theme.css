@@ -61,8 +61,8 @@ span.TridactylHint {
 	font-size: 14px !important;
 	font-weight: bold !important;
 	text-transform: lowercase !important;
-	color: black !important;
-	background-color: white !important;
+	color: inherit !important;
+	background-color: transparent !important;
 	border-color: rgb(255, 255, 255) !important;
 	border-width: 0px !important;
 	border-radius: 0px !important;
@@ -71,6 +71,7 @@ span.TridactylHint {
 	padding: 0 0pt !important;
 	text-align: center !important;
 	z-index: 2147483647 !important;
+    filter: invert(1);
 }
 
 
