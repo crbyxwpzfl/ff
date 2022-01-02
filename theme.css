@@ -22,7 +22,7 @@
     --tridactyl-hint-bg: rgba(0,0,0,0);
 
     --tridactyl-hintspan-fg: white;
-    --tridactyl-hintspan-bg: #204e8a;
+    --tridactyl-hintspan-bg: transparent;
 
     --tridactyl-hint-active-fg: #333;
     --tridactyl-hint-active-bg: #88ff00;
