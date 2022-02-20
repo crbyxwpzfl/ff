@@ -17,6 +17,7 @@ javascript:( function(){
 	document.head.appendChild(scriptsheet);
 	
 	document.getElementsByTagName("Input")[0].setAttribute("style", "outline: none; font-size: 21px;");
+	document.getElementById("voice-search-button").remove();
 	
 	let v= document.querySelector('video');
 	v.addEventListener('webkitpresentationmodechanged',(e)=>e.stopPropagation(), true); 
