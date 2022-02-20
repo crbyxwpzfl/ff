@@ -18,6 +18,8 @@ javascript:( function(){
 	
 	document.getElementsByTagName("Input")[0].setAttribute("style", "outline: none; font-size: 21px;");
 	document.getElementById("voice-search-button").remove();
+	document.getElementById("end").getElementsByTagName("ytd-topbar-menu-button-renderer")[0].remove();
+	document.getElementById("end").getElementsByTagName("ytd-topbar-menu-button-renderer")[0].remove();
 	
 	let v= document.querySelector('video');
 	v.addEventListener('webkitpresentationmodechanged',(e)=>e.stopPropagation(), true); 
