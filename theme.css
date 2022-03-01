@@ -33,10 +33,15 @@
 
 span.TridactylHint {
     position: absolute !important;
-    font-family: monospace !important;
+    font-family: sans-serif !important;
+    
+    font-size: 32px !important;
+    
     font-weight: bold !important;
-    text-transform: lowercase !important;
+    text-transform: uppercase !important;
     border-style: solid !important;
     padding: 0 0pt !important;
     text-align: center !important;
+    
+    color: black;
 }
