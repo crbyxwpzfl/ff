@@ -22,7 +22,7 @@
     --tridactyl-hint-outline: none;
     --tridactyl-hint-bg: none;
     
-    --tridactyl-hintspan-fg: black !important;
+    --tridactyl-hintspan-fg: mix-blend-mode: difference !important;
     --tridactyl-hintspan-bg: transparent !important;
     
     --tridactyl-hintspan-font-size: 14px;
