@@ -21,7 +21,7 @@
     --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
     --tridactyl-hint-bg: rgba(0,0,0,0);
 
-    --tridactyl-hintspan-fg: rgba(223, 0, 255, 0.8);
+    --tridactyl-hintspan-fg: black;
     --tridactyl-hintspan-bg: transparent;
 
     --tridactyl-hint-active-outline: 1px solid transparent;
