@@ -14,23 +14,20 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
 }
 
-/*
+
 :root.TridactylThemeTheme {
-    --tridactyl-hint-active-bg: rgba(0,0,0,0);
-    --tridactyl-hint-active-outline: 0px solid rgba(0,0,0,0);
-    --tridactyl-hint-outline: 0px solid rgba(0,0,0,0);
-    --tridactyl-hint-bg: rgba(0,0,0,0);
-
-    --tridactyl-hintspan-fg: black;
-    --tridactyl-hintspan-bg: transparent;
-
-    --tridactyl-hint-active-outline: 1px solid transparent;
+    --tridactyl-hint-active-fg: none;
+    --tridactyl-hint-active-bg: none;
+    --tridactyl-hint-active-outline: none;
+    --tridactyl-hint-outline: none;
+    --tridactyl-hint-bg: none;
     
-    --tridactyl-hintspan-font-size: 14px;
+    --tridactyl-hintspan-fg: black; !important
+    --tridactyl-hintspan-bg: none !important;
     
-    --tridactyl-hint-outline: 1px solid transparent;
+    --tridactyl-hintspan-font-size: 20px;
 }
-*/
+
 
 span.TridactylHint {
     position: absolute !important;
