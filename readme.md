@@ -14,6 +14,7 @@ crtl shift e #explorer
 ```sh
 about:support #open url to find profile folder
 \Mozilla\Firefox\Profiles\...\chrome\userChrome.css #put userChrome.css here
+about:config browser.backspace_action = 0 #for backspace back
 ```
 general
 ```sh
