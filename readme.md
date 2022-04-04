@@ -32,6 +32,7 @@ setup
 :colourscheme --url https://crbyxwpzfl.github.io/ff/theme.css theme #remeber to host githubpages from master baranch before in repo settings
 :unbind . #make . for github work
 :unbind <C-f> #make search page use ff inernal search
+:unbind <C-b> #let strg b open bookmarks pane
 :set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
 :bind --mode=hint f hint.reset  #bind f to exit hint mode
 :set modeindicatormodes {"normal":"false", "hint":"false"} #hide moe indicator
