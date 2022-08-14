@@ -22,17 +22,18 @@ about:config browser.backspace_action = 0 #for backspace back
 ```
 general
 ```sh
-Alt # drop address bar while address bar showing navigate invisible menues via arrow keys<br>
-Strg Tab #switch tabs<br>
+Alt # drop address bar while address bar showing navigate invisible menues via arrow keys
+    # to use element click and hit alt again
+Strg Tab #switch tabs
 ```
 
 ## [vimvixn](https://github.com/ueokande/vim-vixen)
 ```sh
 b #show tabs<br>
-o #open in same tab<br>
-t #open in new tab<br>
-O #show current link<br>
-y #yank current link<br>
+o #open in same tab
+t #open in new tab
+O #show current link
+y #yank current link
 hwjkl #move
 f #clik link
 Shift hl #back forward
