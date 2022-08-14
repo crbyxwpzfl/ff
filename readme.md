@@ -55,6 +55,9 @@ crtl shift e #explorer
 ```
 
 ## [ublock origin](https://github.com/gorhill/uBlock)
+```sh
+# in settings uncheck make use of context menue when appropiate
+```
 
 ## [icloud bokmarks](https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks)
 requires windows [icloud app](https://www.microsoft.com/store/apps/9PKTQ5699M62)
