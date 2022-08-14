@@ -10,7 +10,7 @@ crtl shift e #explorer
 ```
 
 ## books
-[addons](about:addons)
+
 
 ## [ff](https://www.mozilla.org/en-US/firefox/new/)
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
@@ -22,32 +22,18 @@ about:config browser.backspace_action = 0 #for backspace back
 ```
 general
 ```sh
-Strg b #bookmark sidebar<br>
-Strg h #history sidebar<br>
-Strg Shift s #screenshot tool<br>
-Alt arrow right #go back<br>
+Alt # drop address bar while address bar showing navigate invisible menues via arrow keys<br>
 Strg Tab #switch tabs<br>
 ```
 
-## [tridactyl](https://github.com/tridactyl/tridactyl)
-setup
-```sh
-:colourscheme --url https://crbyxwpzfl.github.io/ff/theme.css theme #remeber to host githubpages from master baranch before in repo settings
-:unbind . #make . for github work
-:unbind <C-f> #make search page use ff inernal search
-:unbind <C-b> #let strg b open bookmarks pane
-:set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
-:bind --mode=hint f hint.reset  #bind f to exit hint mode
-:set modeindicatormodes {"normal":"false", "hint":"false"} #hide moe indicator
-:setnull searchurls.github  #disable github seach
-```
-general
+## [vimvixn](https://github.com/ueokande/vim-vixen)
 ```sh
 b #show tabs<br>
 o #open in same tab<br>
 t #open in new tab<br>
 O #show current link<br>
-hjkl #move
+y #yank current link<br>
+hwjkl #move
 f #clik link
 Shift hl #back forward
 Shift jk #tabs cycle
