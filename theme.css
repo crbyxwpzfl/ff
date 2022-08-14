@@ -11,21 +11,21 @@
     bottom: unset;
     top: 20% !important;
     left: 0% !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px !important;
 }
 
 
 :root.TridactylThemeTheme {
-    --tridactyl-hint-active-fg: none;
-    --tridactyl-hint-active-bg: none;
+    --tridactyl-hint-active-fg: unset;
+    --tridactyl-hint-active-bg: unset;
     --tridactyl-hint-active-outline: none;
     --tridactyl-hint-outline: none;
-    --tridactyl-hint-bg: none;
+    --tridactyl-hint-bg: unset;
     
-    --tridactyl-hintspan-fg: #808080 !important;
-    --tridactyl-hintspan-bg: transparent !important;
+    --tridactyl-hintspan-fg: mix-blend-mode: difference !important;
+    --tridactyl-hintspan-bg: unset !important;
     
-    --tridactyl-hintspan-font-size: 20px;
+    --tridactyl-hintspan-font-size: 12px;
 }
 
 
