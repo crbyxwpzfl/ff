@@ -22,7 +22,7 @@
     --tridactyl-hint-outline: none;
     --tridactyl-hint-bg: unset;
     
-    --tridactyl-hintspan-fg: mix-blend-mode: difference !important;
+    --tridactyl-hintspan-fg: yellow !important;
     --tridactyl-hintspan-bg: unset !important;
     
     --tridactyl-hintspan-font-size: 12px;
@@ -37,4 +37,5 @@ span.TridactylHint {
     border-style: solid !important;
     padding: 0 0pt !important;
     text-align: center !important;
+    mix-blend-mode: difference !important;
 }
