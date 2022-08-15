@@ -14,6 +14,11 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px !important;
 }
 
+:root #completions .focused,
+:root #completions .focused .url {
+    background: white;
+    text-decoration: underline;
+}
 
 :root.TridactylThemeTheme {
     --tridactyl-hint-active-fg: unset;
