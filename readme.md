@@ -35,7 +35,9 @@ setup
 :unbind <C-f> #make search page use ff inernal search
 :unbind <C-b> #let strg b open bookmarks pane
 :set hintchars hjklasdgyuiopqwertnmzxcvb  #exclude f
-:bind --mode=hint f hint.reset  #bind f to exit hint mode
+:bind --mode=normal f hint -J*  #bind f to hint all except js
+:set hintchars 0123456789 #set hintchars so one can type with next setting
+:set hintfiltermode vimperator-refow #type to naeeow down hints
 :set modeindicatormodes {"normal":"false", "hint":"false"} #hide moe indicator
 :setnull searchurls.github  #disable github seach
 ```
