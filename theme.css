@@ -32,6 +32,14 @@
     
     --tridactyl-hintspan-font-size: 12px;
     --tridactyl-hintspan-js-background: red;
+
+
+    /* Mode indicator */
+    --tridactyl-status-font-size: 1px;
+    --tridactyl-status-bg: none;
+    --tridactyl-status-fg: none;
+    --tridactyl-status-border: 0px;
+    --tridactyl-status-border-radius: 0px;
 }
 
 
