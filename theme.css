@@ -27,8 +27,8 @@
     --tridactyl-hint-outline: none;
     --tridactyl-hint-bg: unset;
     
-    --tridactyl-hintspan-fg: yellow !important;
-    --tridactyl-hintspan-bg: unset !important;
+    --tridactyl-hintspan-fg: black !important;
+    --tridactyl-hintspan-bg: white !important;
     
     --tridactyl-hintspan-font-size: 12px;
     --tridactyl-hintspan-js-background: red;
