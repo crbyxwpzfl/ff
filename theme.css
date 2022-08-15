@@ -62,6 +62,13 @@ span.TridactylHint {
     mix-blend-mode: difference !important;
 }
 
-.TridactylHintElem{
-    background: inherit;
-  }
+.TridactylHintElem {
+    background-color: inherit;
+    outline: inherit;
+}
+
+.TridactylHintElem, .TridactylHintActive {
+    color: inherit;
+    animation: inherit;
+    transition: inherit;
+}
