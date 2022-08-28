@@ -22,7 +22,7 @@
 :root #completions .focused,
 :root #completions .focused .url {
     background: white;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 :root.TridactylThemeTheme {
