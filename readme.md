@@ -11,7 +11,6 @@ crtl shift e #explorer
 
 ## books
 
-
 ## [ff](https://www.mozilla.org/en-US/firefox/new/)
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
 ```sh
