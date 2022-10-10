@@ -1,11 +1,8 @@
 {
-    "workbench.colorTheme": "GitHub Dark",
-    "window.menuBarVisibility": "toggle",
-    "remoteHub.commitDirectlyWarning": "off",
-    
     "vim.handleKeys": {
         "<C-c>": false,
-        "<C-v>": false
+        "<C-v>": false,
+        "<C-x>": false
     },
 
     "vim.insertModeKeyBindings": [
@@ -13,5 +10,20 @@
             "before": ["j", "j"],
             "after": ["<esc>"]
         }
-   ]
+    ],
+    "editor.renderWhitespace": "all",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "settingsSync.ignoredExtensions": [
+    
+    ],
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "explorer.copyRelativePathSeparator": "/",
+    "git.enableSmartCommit": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line"
 }
