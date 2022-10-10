@@ -3,10 +3,8 @@ strg k #github spotlight
 ```
 
 ```sh
-. #vs code in browser
-alt #toggle menue bar
-crtl shit g #source controll
-crtl shift e #explorer
+vscode.dev #vs code in browser
+alt #to toggle menue bar
 ```
 
 #### books
@@ -104,6 +102,7 @@ Strg Tab #switch tabs
 setup
 ```sh
 :colourscheme --url https://crbyxwpzfl.github.io/ff/theme.css theme #remeber to host githubpages from master baranch before in repo settings
+:unbind <F1> #make F1 work in vscode.dev for command pallet
 :unbind . #make . for github work
 :unbind <C-f> #make search page use ff inernal search
 :unbind <C-b> #let strg b open bookmarks pane
