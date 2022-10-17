@@ -8,6 +8,7 @@
 <link id="3">
 <link id="4">
 <link id="5">
+<script type="text/javascript" src="https://github.com/crbyxwpzfl/spinala/raw/main/locs.js"></script>
 <style>
     /* default style */
 </style>
@@ -49,8 +50,12 @@ function load(ccode, color, strokewidth) { //build css and favs according to pas
     document.getElementsByTagName('style')[0].replaceWith(styletag)
 }
 
-window.onload = load( "off", "#fc4444", 1 )
+window.onload = load( "off", "#fc4444", 1 )  /* provide current location and color here #fc4444 or #fc4444 and stroke widht 1 or 6 */
 
+</script>
+
+<script>
+    document.write('<img src="' + locations.test + '" alt="" />');
 </script>
 
 <meta property="og:image" content="https://github.com/crbyxwpzfl/spinala/raw/main/locs/off/trans-og.png"/> <!-- imessage wont execute js so these musst be set via github push -->
