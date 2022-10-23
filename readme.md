@@ -82,35 +82,30 @@ alt #to toggle menue bar
 #### nützlich
 [vpngate](https://www.vpngate.net/en/) 
 
-#### readlist js to execute on sites
+#### readlist js
+```sh
+to use save these js bookmark or readlist and click them on site
+```
 ```js
-javascript:( function(){ 
-	var script = `window.addEventListener("orientationchange", function() {
-		if (window.orientation == 90) {
-			document.getElementsByTagName("ytd-app")[0].setAttribute( "style", "transform: rotate(-90deg); transform-origin: right top; width: 400px; zoom: 50%");
-			document.getElementsByTagName("html")[0].setAttribute("style", "font-size: 5px;font-family: Roboto, Arial, sans-serif;");
-		}; if (window.orientation == -90) {
-			document.getElementsByTagName("ytd-app")[0].setAttribute("style", "transform: rotate(90deg) translateY(-100000px); transform-origin: left top; width: 400px; zoom: 50%");
-			document.documentElement.scrollLeft = 0 + 100000;
-			document.getElementsByTagName("html")[0].setAttribute("style", "font-size: 5px;font-family: Roboto, Arial, sans-serif;");
-		}; if (window.orientation == 0) {
-			document.getElementsByTagName("ytd-app")[0].setAttribute("style", "zoom: 100%");
-			document.getElementsByTagName("html")[0].setAttribute("style", "font-size: 12px;font-family: Roboto, Arial, sans-serif;");
-		}
-	}); `;
-	var scriptsheet = document.createElement("script");
-	scriptsheet.innerText = script;
-	document.head.appendChild(scriptsheet);
-	
-	document.getElementsByTagName("Input")[0].setAttribute("style", "outline: none; font-size: 21px;");
-	document.getElementById("voice-search-button").remove();
-	document.getElementById("end").getElementsByTagName("ytd-topbar-menu-button-renderer")[0].remove();
-	document.getElementById("end").getElementsByTagName("ytd-topbar-menu-button-renderer")[0].remove();
-	
+javascript:( function(){
 	let v= document.querySelector('video');
 	v.addEventListener('webkitpresentationmodechanged',(e)=>e.stopPropagation(), true); 
 	setTimeout(()=>v.webkitSetPresentationMode('picture-in-picture'), 3000);completion()
 } )();
+```
+```js
+javascript:( function(){
+	var a=window.open('about:blank').document;
+	a.write('<title>Source of '+location.href+'</title><meta name="viewport" content="width=device-width">');
+	a.close();
+	var b=a.body.appendChild(a.createElement('pre'));
+	b.style.overflow='auto';
+	b.style.whiteSpace='pre-wrap';
+	b.appendChild(a.createTextNode(document.documentElement.innerHTML))
+} )();
+```
+```js
+javascript:document.body.contentEditable = true; void 0;
 ```
 
 #### [ff](https://www.mozilla.org/en-US/firefox/new/)
