@@ -80,9 +80,38 @@ alt #to toggle menue bar
 [earth](https://earth.nullschool.net/)
 
 #### nützlich
-`javascript:(function()%7Bdocument.getElementsByTagName(%22Input%22)%5B0%5D.setAttribute(%22style%22,%20%22outline:%20none;%20font-size:%2021px;%22);%C2%A0let%20v=%20document.querySelector('video');%C2%A0v.addEventListener('webkitpresentationmodechanged',(e)=%3Ee.stopPropagation(),%20true);%C2%A0setTimeout(()=%3Ev.webkitSetPresentationMode('picture-in-picture'),%203000);completion()%7D)();` - 
 [vpngate](https://www.vpngate.net/en/) 
 
+#### readlist js to execute on sites
+```js
+javascript:( function(){ 
+	var script = `window.addEventListener("orientationchange", function() {
+		if (window.orientation == 90) {
+			document.getElementsByTagName("ytd-app")[0].setAttribute( "style", "transform: rotate(-90deg); transform-origin: right top; width: 400px; zoom: 50%");
+			document.getElementsByTagName("html")[0].setAttribute("style", "font-size: 5px;font-family: Roboto, Arial, sans-serif;");
+		}; if (window.orientation == -90) {
+			document.getElementsByTagName("ytd-app")[0].setAttribute("style", "transform: rotate(90deg) translateY(-100000px); transform-origin: left top; width: 400px; zoom: 50%");
+			document.documentElement.scrollLeft = 0 + 100000;
+			document.getElementsByTagName("html")[0].setAttribute("style", "font-size: 5px;font-family: Roboto, Arial, sans-serif;");
+		}; if (window.orientation == 0) {
+			document.getElementsByTagName("ytd-app")[0].setAttribute("style", "zoom: 100%");
+			document.getElementsByTagName("html")[0].setAttribute("style", "font-size: 12px;font-family: Roboto, Arial, sans-serif;");
+		}
+	}); `;
+	var scriptsheet = document.createElement("script");
+	scriptsheet.innerText = script;
+	document.head.appendChild(scriptsheet);
+	
+	document.getElementsByTagName("Input")[0].setAttribute("style", "outline: none; font-size: 21px;");
+	document.getElementById("voice-search-button").remove();
+	document.getElementById("end").getElementsByTagName("ytd-topbar-menu-button-renderer")[0].remove();
+	document.getElementById("end").getElementsByTagName("ytd-topbar-menu-button-renderer")[0].remove();
+	
+	let v= document.querySelector('video');
+	v.addEventListener('webkitpresentationmodechanged',(e)=>e.stopPropagation(), true); 
+	setTimeout(()=>v.webkitSetPresentationMode('picture-in-picture'), 3000);completion()
+} )();
+```
 
 #### [ff](https://www.mozilla.org/en-US/firefox/new/)
 [userchrome.css](https://github.com/crbyxwpzfl/ff/blob/main/userChrome.css)
