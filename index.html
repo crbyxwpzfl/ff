@@ -22,14 +22,14 @@
 <body>
 <script>
 function load(ccode, color, strokewidth) { //build css and favs according to passed ccode as selected
-    var linktag = document.createElement('link'); linktag.rel = "apple-touch-icon"; linktag.sizes="180x180"; linktag.href = locations.appletouch;  /* force browser to update fav */
+    var linktag = document.createElement('link'); linktag.rel = "apple-touch-icon"; linktag.sizes="180x180"; linktag.href = locations.appletouch; /* aparently data urls dont work like this dont knw how to make it work */
     document.getElementsByTagName('link')[0].replaceWith(linktag)
     var linktag = document.createElement('link'); linktag.rel = "icon"; linktag.type = "image/png"; linktag.sizes="32x32"; linktag.type="image/svg+xml"; linktag.href = locations.thirtytwo;
     document.getElementsByTagName('link')[1].replaceWith(linktag)
     var linktag = document.createElement('link'); linktag.rel = "icon"; linktag.type = "image/png"; linktag.sizes="16x16"; linktag.type="image/svg+xml"; linktag.href = locations.sixteen;
     document.getElementsByTagName('link')[2].replaceWith(linktag)
     
-    //var linktag = document.createElement('link'); linktag.rel = "manifest"; linktag.href = `https://github.com/crbyxwpzfl/ff/raw/main/locs/${ccode}/site.webmanifest?${new Date().getTime()}`;
+    //var linktag = document.createElement('link'); linktag.rel = "manifest"; linktag.href = `https://github.com/crbyxwpzfl/ff/raw/main/locs/${ccode}/site.webmanifest?${new Date().getTime()}`; /* date here forces browser to update fav */
     //document.getElementsByTagName('link')[3].replaceWith(linktag)
     
     //var linktag = document.createElement('link'); linktag.rel = "mask-icon"; linktag.href = `https://github.com/crbyxwpzfl/ff/raw/main/locs/${ccode}/safari-pinned-tab.svg?${new Date().getTime()}`; linktag.color = "#5bbad5";
