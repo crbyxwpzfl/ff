@@ -10,6 +10,7 @@ alt #to toggle menue bar
 #### books
 
 #### falls fad
+[edwardh](https://www.edwardh.io/)
 [filestuff](https://tinywow.com/) - 
 [intervew mag](http://www.interviewmagazine.com/#fashion) - 
 [digg mag](http://digg.com/) - 
